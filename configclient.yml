@@ -12,5 +12,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8080/eureka/
+mybatis:
+  mapperLocations: classpath:UserMapper.xml
 server:
   port: 8081
